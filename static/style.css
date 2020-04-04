@@ -5,3 +5,9 @@
     width: 100%;
     text-align: left;
 }
+
+.container{
+    height: 580px;
+    border: 10px;
+    text-align: center;
+}
