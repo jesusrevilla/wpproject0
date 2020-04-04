@@ -15,6 +15,13 @@
 
       <script>w3.includeHTML();</script>
 
+      <div class="container">
+        <div class="row">
+          <div id="left-top" class="col-sm-12 col-lg-6">.col-sm-12 .col-lg-6</div>
+          <div id="right-bottom" class="col-sm-12 col-lg-6"><img src="jesus_revilla.jpg" alt="Jesus Revilla"></div>
+        </div>
+      </div>      
+
       <script>
         var list = '<ul class="list-group">';
         var proyects = ["Replacement of End of Life Microcontroller", "Factorial DOE", "No linear Regression to Model Learning Curve", "Priority Dashboard for Manufacturing"];
@@ -22,6 +29,7 @@
           list += '<li class="list-group-item">' + project + "</li>";
         } 
         list += "</ul>"
+        alert(list);
         document.getElementById("left-top").innerHTML = list;
       </script>
 
