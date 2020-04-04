@@ -9,11 +9,6 @@
 .container {
     width: 350px;
     height: 472px;
-    margin-top: 10px;
+    margin: 10px;
     text-align: center;
-    vertical-align: middle;
-}
-
-.list-group-item li[id="title"] {
-    font-weight: bold;
 }
