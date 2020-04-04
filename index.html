@@ -24,7 +24,11 @@
     
       <script>
           var list = '<ul class="list-group">';
-          var interests = ["Python Programming", "Teaching Mathematics", "Data Science", "Football"];
+          list += '<li id="title" class="list-group-item">Interests:</li>''
+          var interests = ["Python Programming", 
+                          "Teaching Mathematics", 
+                          "Data Science", 
+                          "Football"];
           for (interest of interests){
             list += '<li class="list-group-item">' + interest + "</li>";
           } 
