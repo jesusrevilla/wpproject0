@@ -15,14 +15,21 @@
 
       <script>w3.includeHTML();</script>
       
+      <div class="container">
+        <div class="row">
+          <div id="left-top" class="col-sm-12 col-lg-6">.col-sm-12 .col-lg-6</div>
+          <div id="right-bottom" class="col-sm-12 col-lg-6"><img src="jesus_revilla.jpg" alt="Jesus Revilla"></div>
+        </div>
+      </div>
+    
       <script>
-        var list = '<ul class="list-group">';
-        var interests = ["Python Programming", "Teaching Mathematics", "Data Science", "Football"];
-        for (interest of interests){
-          list += '<li class="list-group-item">' + interest + "</li>";
-        } 
-        list += "</ul>"
-        document.getElementById("left-top").innerHTML = list;
+          var list = '<ul class="list-group">';
+          var interests = ["Python Programming", "Teaching Mathematics", "Data Science", "Football"];
+          for (interest of interests){
+            list += '<li class="list-group-item">' + interest + "</li>";
+          } 
+          list += "</ul>"
+          document.getElementById("left-top").innerHTML = list;
       </script>
       
       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
