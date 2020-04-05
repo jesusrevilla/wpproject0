@@ -17,3 +17,7 @@ img {
     width: 100%;
     height: auto;
 }
+
+div form {
+    text-align: center;
+}
