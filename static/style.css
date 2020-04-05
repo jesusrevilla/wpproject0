@@ -7,8 +7,6 @@
 }
 
 .container {
-    width: 350px;
-    height: 472px;
     margin: 10px;
     text-align: center;
 }
@@ -21,3 +19,8 @@ img {
 div form {
     text-align: center;
 }
+
+ul li[id="header"] {
+    font-size: large;
+}
+
