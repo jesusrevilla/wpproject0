@@ -14,7 +14,7 @@
 }
 
 img {
+    transform: rotate(90deg);
     width: 100%;
     height: auto;
-    transform: rotate(90deg);
 }
