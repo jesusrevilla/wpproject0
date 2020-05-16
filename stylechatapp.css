@@ -14,10 +14,13 @@ body {
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
+    text-align: right;
 }
 
 .appname {
     flex: 6 1 auto;
+    text-align: left;
+    padding-left: 9px;
 }
 
 .space {
@@ -30,5 +33,30 @@ body {
 
 .submenu {
     flex: 1 1 auto;
+    padding-right: 9px;
 }
 
+.menu {
+    display: flex;
+    background-color: green;
+    color: white;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.camera {
+    flex: 1 1 auto;
+}
+
+.chats {
+    flex: 3 1 auto;
+    border-bottom: 3px solid white;
+}
+
+.estados {
+    flex: 3 1 auto;
+}
+
+.llamadas {
+    flex: 3 1 auto;
+}
