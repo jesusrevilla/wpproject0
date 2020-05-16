@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;  
+    margin: 0;
+    background-color: white;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    background-color: green;
+    justify-content: space-between;
+    color: white;
+}
+
+
+.appname {
+    padding-right: 3px;
+    flex: 6 1 auto;    
+}
+
+.space {
+    flex: 6 1 auto;
+}
+
+.search {
+    flex: 1 1 auto;
+}
+
+.threepoints {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.point {
+    border: 1px solid white;
+    width: 1px ;
+    height: 1px;
+}
+
+.green-point {
+    border: 1px solid green;
+    width: 1px ;
+    height: 1px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav > div {
+    background-color: green;
+    flex: 4 1 auto;
+    text-align: center;
+    color: white;
+}
+
+.camera {
+    flex: 1 1 auto;
+}
+
+.chat {
+    border-bottom: 3px solid white;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+.icon {
+    justify-content: center;
+    flex: 1 1 auto;
+    border: 0px solid black;
+}
+.info {
+    flex: 4 1 auto;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid lightgray;
+}
+
+.info-top {
+    display: flex;
+}
+
+.info-bottom {
+    display: flex;
+}
+
+.chatname{
+    flex: 3 1 auto;
+    font-weight: bold;
+}
+
+.timedate {
+    flex: 1 1 auto;
+}
+
+.contact {
+    flex: 3 1 auto;
+}
+
+.element {
+    flex: 1 1 auto;
+    color: green;
+}
